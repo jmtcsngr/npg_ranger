@@ -1,14 +1,14 @@
 {
   "name": "npg_ranger",
   "title": "npg_ranger",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Streaming service for bioinformatics data.",
   "homepage": "https://github.com/wtsi-npg/npg_ranger",
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "engines": {
-    "node" : ">=6.11.4",
-    "npm": ">=4.5.0"
+    "node": "~8.15.0",
+    "npm": "~6.4.1"
   },
   "repository": {
     "type": "git",
@@ -54,36 +54,36 @@
   },
   "main": "./lib/main.js",
   "dependencies": {
-    "async":         "2.4.1",
-    "winston":       "2.3.1",
-    "moment" :       "2.20.1",
-    "fs-extra":      "3.0.1",
-    "mongodb":       "2.2.29",
-    "node-getopt":   "^0.2.3",
-    "config-chain":  "1.1.11",
-    "commander":     "2.9.0",
-    "js-md5" :       "0.4.2",
+    "async": "2.4.1",
+    "commander": "2.9.0",
+    "config-chain": "1.1.11",
+    "fs-extra": "3.0.1",
     "http-shutdown": "1.2.0",
-    "request":       "2.81.0",
+    "js-md5": "0.4.2",
+    "moment": "2.20.1",
+    "mongodb": "2.2.29",
+    "node-getopt": "^0.2.3",
+    "request": "^2.88.0",
     "semver": "5.3.0",
-    "send": "0.16.1"
+    "send": "0.16.1",
+    "winston": "2.3.1"
   },
   "devDependencies": {
+    "browserify": "14.4.0",
     "decache": "4.1.0",
     "dev-null": "^0.1.1",
-    "grunt": "1.0.1",
+    "grunt": "^1.0.3",
+    "grunt-browserify": "^5.3.0",
     "grunt-cli": "*",
     "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-jshint": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-jasmine-nodejs": "1.6.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-jasmine-nodejs": "^1.6.1",
     "grunt-jscs": "3.0.1",
     "grunt-jsdoc": "2.1.0",
     "grunt-jsonlint": "^1.0.7",
-    "grunt-browserify": "5.0.0",
     "load-grunt-tasks": "3.5.2",
-    "pem":              "1.9.7",
-    "tmp": "0.0.31",
-    "browserify": "14.4.0"
+    "pem": "^1.14.1",
+    "tmp": "0.0.31"
   }
 }
